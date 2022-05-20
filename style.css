@@ -112,3 +112,16 @@ Exercise 1   */
 .ex-5-square:active {
     transform: scale(1.1);
 }
+
+/* Exercise 6 */
+
+.ex-6-img {
+    width: 500px;
+    filter: grayscale(0);
+    transition: filter 1s linear;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
